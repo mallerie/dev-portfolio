@@ -19,7 +19,7 @@
   min-height: 100vh;
   border: 1px solid red;
   header {
-    height: 8em;
+    // height: 8em;
     border: 1px solid red;
 
     #header-name-wrapper {
@@ -31,6 +31,7 @@
         margin: 0;
         padding: 2em;
         border: 1px solid red;
+        border-bottom: .25em solid black;
       }
     }
       nav {
@@ -47,7 +48,14 @@
     }
   main {
     background: #999;
-    // border: 1px solid red;
-    
+    display: flex;
+    .main-image-wrapper {
+      
+      img {
+      width: 40%;
+      }
+    } 
+    .home-content {
+          }   
   }
 }

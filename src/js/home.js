@@ -10,7 +10,7 @@ export default class Home extends Component {
 
     return(
       <div className="home">
-        <header>
+        <header> {/* ----------HEADER ----------*/}
 
           <div id="header-name-wrapper">
             <h1>Mallerie Shirley</h1>
@@ -26,16 +26,23 @@ export default class Home extends Component {
             </ul>
           </nav>
           
-        </header>
+        </header> {/* ----------HEADER ----------*/}
 
-        <main>
-          
+        <main> {/* ----------MAIN ----------*/}
 
-        </main>
+          <div className="main-image-wrapper">
+            <img src="./images/mallerie-shirley.jpg" alt="Mallerie standing in front of a tree."/>
+          </div>
 
-        <footer>
+          <div className="home-content">
 
-        </footer>
+          </div>
+
+        </main> {/* ----------MAIN ----------*/}
+
+        <footer> {/* ----------FOOTER ----------*/}
+
+        </footer> {/* ----------FOOTER ----------*/}
 
       </div>
       )
