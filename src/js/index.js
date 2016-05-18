@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import { Route, Router, hashHistory, IndexRoute } from 'react-router';
 import { render } from 'react-dom';
 
+import Home from './home';
+
 
 
 
