@@ -29,9 +29,13 @@ export default class Home extends Component {
         </header>
 
         <main>
-        
+          
 
         </main>
+
+        <footer>
+
+        </footer>
 
       </div>
       )
