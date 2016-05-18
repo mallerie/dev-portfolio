@@ -10,7 +10,29 @@ export default class Home extends Component {
 
     return(
       <div className="home">
-        <h1>Mallerie Shirley's Portfolio</h1>
+        <header>
+
+          <div id="header-name-wrapper">
+            <h1>Mallerie Shirley</h1>
+          </div>
+
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>Resume</li>
+              <li>Portfolio</li>
+              <li>Interests</li>
+
+            </ul>
+          </nav>
+          
+        </header>
+
+        <main>
+        
+
+        </main>
+
       </div>
       )
   }

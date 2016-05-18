@@ -1,5 +1,53 @@
 /* CSS Entry Point */
 
 // Turn on freq used libraries
-// @import 'normalize-css/normalize';
-// @import 'font-awesome/scss/font-awesome';
+@import 'normalize-css/normalize';
+@import 'font-awesome/scss/font-awesome';
+
+
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background: #aaa;
+  min-height: 100vh;
+  border: 1px solid red;
+  header {
+    height: 8em;
+    border: 1px solid red;
+
+    #header-name-wrapper {
+
+      background: #eee;
+      display: flex;
+      justify-content: center;
+      h1 {
+        margin: 0;
+        padding: 2em;
+        border: 1px solid red;
+      }
+    }
+      nav {
+        background: #666;
+        height: 4em;
+        border: 1px solid red;
+        ul {
+          display: flex;
+          li {
+
+          }
+        }
+      }
+    }
+  main {
+    background: #999;
+    // border: 1px solid red;
+    
+  }
+}
