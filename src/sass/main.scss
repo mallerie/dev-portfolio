@@ -17,45 +17,71 @@
 .app {
   background: #aaa;
   min-height: 100vh;
-  border: 1px solid red;
   header {
-    // height: 8em;
-    border: 1px solid red;
 
     #header-name-wrapper {
 
-      background: #eee;
+      background: #eee; 
       display: flex;
       justify-content: center;
       h1 {
         margin: 0;
-        padding: 2em;
-        border: 1px solid red;
-        border-bottom: .25em solid black;
+        padding: .5em;
+        border-bottom: .15em solid black;
+        font-size: 4em;
       }
     }
       nav {
         background: #666;
-        height: 4em;
-        border: 1px solid red;
+        // height: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         ul {
           display: flex;
+          flex-wrap: wrap;
+          padding: .75em;
           li {
+            min-height: 100%;
+            margin: 1em 3em;
 
           }
         }
       }
-    }
+  }
   main {
     background: #999;
     display: flex;
+    min-height: 24em;
     .main-image-wrapper {
       
       img {
-      width: 40%;
+        max-width: 30%;
+        min-width: 22em;
+        padding: 2em;
       }
     } 
-    .home-content {
-          }   
+    .content {
+      .about-me-wrapper {
+        margin: 1em;
+      }
+      .preview-wrapper {
+        img {
+          width: 20%;
+          height: 8em;
+          margin: 2em;
+          transition: height 1s, width 1s;
+        }
+        img:hover {
+          height: 9em;
+          width: 25%;
+        }
+      }
+    }   
+  }
+  footer {
+    min-height: 3em;
+
   }
 }
