@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: black;
 }
 
 .app {
@@ -53,9 +54,10 @@
   main {
     background: #999;
     display: flex;
-    min-height: 24em;
+    // flex-wrap: wrap;
+    // min-height: 24em;
     .main-image-wrapper {
-      
+      display: inline-block;
       img {
         max-width: 30%;
         min-width: 22em;
@@ -63,18 +65,23 @@
       }
     } 
     .content {
+      display: flex;
+      flex-direction: column;
+      max-width: 150em;
       .about-me-wrapper {
         margin: 1em;
+        
       }
       .preview-wrapper {
         display: flex;
+        flex-wrap: wrap;
         // position: relative;
         .image-wrapper {
           position: relative;
           img {
           width: 11em;
           height: 8em;
-          margin: 2em;
+          margin: 1.75em;
           position: relative;
           transition-property: height, width, margin;
           transition-duration: 1s;
@@ -90,14 +97,14 @@
           transition-duration: 1s;
           margin: 1em;
         }
-        .hover-title:hover {
-          position: absolute;
-          transition-property: top, left;
-          // transition-duration: 1s;
-          top: 5em;
-          left: 3em;
-          opacity: 1;
-        }  
+        // .hover-title:hover {
+        //   position: absolute;
+        //   transition-property: top, left;
+        //   // transition-duration: 1s;
+        //   top: 5em;
+        //   left: 3em;
+        //   opacity: 1;
+        // }  
         .hover-title {
           position: absolute;
           // opacity: 0;
@@ -110,6 +117,70 @@
   }
   footer {
     min-height: 3em;
+    display: flex;
+    // justify-content: space-around;
+    .contact-info-wrapper {
+      flex-grow: 1;
+      p {
+        font-size: 1em;
+        margin: .55em
+      }
+    }
+    .social-info-wrapper {
+      flex-grow: 1;
+      justify-content: flex-end;
+      i {
+        font-size: 2.5em;
+        margin: .5em 0 0 6em;      
+      }
+      i:hover {
+        opacity: .5;
+      }
+    }
+  }
+}
 
+.home {
+  display: flex;
+  flex-flow: row;
+  
+}
+
+.resume {
+  text-align: center;
+  // overflow: scroll;
+  > div {
+    margin-top: 1.5em;
+  }
+  .objective {
+    p {
+      text-align: center;
+    }
+  }
+  .technical-skills {
+    p {
+      
+    }
+  }
+  .projects {
+    p {
+
+    }
+  }
+  .education {
+    .education-item {
+      margin: 1em;
+    }
+    h4 {
+      text-align: left;
+    }
+    p {
+      text-align: left;
+    }
+  }
+  .work {
+    .work-item {
+      margin: 1em;
+    }
   }
 }
