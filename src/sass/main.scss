@@ -67,15 +67,43 @@
         margin: 1em;
       }
       .preview-wrapper {
-        img {
-          width: 20%;
+        display: flex;
+        // position: relative;
+        .image-wrapper {
+          position: relative;
+          img {
+          width: 11em;
           height: 8em;
           margin: 2em;
-          transition: height 1s, width 1s;
+          position: relative;
+          transition-property: height, width, margin;
+          transition-duration: 1s;
+
         }
         img:hover {
-          height: 9em;
-          width: 25%;
+          width: 13.2em;
+          height: 10em;
+          // position: absolute;
+          background-color: #000;
+          opacity: 0.5;
+          transition-property: height, width, margin;
+          transition-duration: 1s;
+          margin: 1em;
+        }
+        .hover-title:hover {
+          position: absolute;
+          transition-property: top, left;
+          // transition-duration: 1s;
+          top: 5em;
+          left: 3em;
+          opacity: 1;
+        }  
+        .hover-title {
+          position: absolute;
+          // opacity: 0;
+          // top: 1em;
+          left: 3em;
+        }
         }
       }
     }   

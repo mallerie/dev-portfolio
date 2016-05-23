@@ -51,9 +51,22 @@ export default class Home extends Component {
             </div>
 
             <div className="preview-wrapper">
-              <img src="./images/resume-preview.png" alt="Image of a resume"/>
-              <img src="./images/project-preview.png" alt="Image of the skinny ties website"/>
-              <img src="./images/mal-working-on-computer.jpg" alt="Mallerie working on a computer"/>
+
+              <div className="image-wrapper">
+                <img src="./images/resume-preview.png" alt="Image of a resume"/>
+                <p className="hover-title">See My Resume</p>
+              </div>  
+
+              <div className="image-wrapper">  
+                <img src="./images/project-preview.png" alt="Image of the skinny ties website"/>
+                <p className="hover-title">See My Projects</p>
+              </div>
+
+              <div className="image-wrapper">  
+                <img src="./images/mal-working-on-computer.jpg" alt="Mallerie working on a computer"/>
+                <p className="hover-title">Learn more about me</p>
+              </div>
+
             </div>
 
           </div>
