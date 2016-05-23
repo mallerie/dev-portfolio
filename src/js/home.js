@@ -53,7 +53,7 @@ export default class Home extends Component {
                 <Link to={'/resume'}>
                   <img src="./images/mal-working-on-computer.jpg" alt="Mallerie working on a computer"/>
                 </Link> 
-                <p className="hover-title">Learn more about me</p>
+                <p className="hover-title">About Me</p>
               </div>
 
             </div>
