@@ -46,7 +46,9 @@
           li {
             min-height: 100%;
             margin: 1em 3em;
-
+            a:hover {
+              opacity: 0.5;
+            }
           }
         }
       }
@@ -67,7 +69,7 @@
     .content {
       display: flex;
       flex-direction: column;
-      max-width: 150em;
+      max-width: 190em;
       .about-me-wrapper {
         margin: 1em;
         
@@ -184,3 +186,8 @@
     }
   }
 }
+
+.portfolio, .interests {
+  min-height: 24em;
+}
+

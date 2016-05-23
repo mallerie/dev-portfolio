@@ -23,8 +23,8 @@ export default class Dashboard extends Component {
             <ul>
               <li><Link to={'/home'}>Home</Link></li>
               <li><Link to={'/resume'}>Resume</Link></li>
-              <li><Link to={'/home'}>Portfolio</Link></li>
-              <li><Link to={'/home'}>Interests</Link></li>
+              <li><Link to={'/portfolio'}>Portfolio</Link></li>
+              <li><Link to={'/interests'}>Interests</Link></li>
             </ul>
 
           </nav>
