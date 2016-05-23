@@ -5,6 +5,8 @@
 @import 'font-awesome/scss/font-awesome';
 
 
+$open-sans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
 
 * {
   list-style-type: none;
@@ -13,27 +15,29 @@
   padding: 0;
   box-sizing: border-box;
   color: black;
+  font-family: $roboto;
 }
 
 .app {
-  background: #aaa;
+  background: #28292E;
   min-height: 100vh;
   header {
-
+    
     #header-name-wrapper {
-
-      background: #eee; 
+      background: #28292E;
       display: flex;
       justify-content: center;
       h1 {
         margin: 0;
         padding: .5em;
-        border-bottom: .15em solid black;
-        font-size: 4em;
+        border-bottom: .10em solid white;
+        font-size: 3em;
+        color: white;
+        font-family: $open-sans;
       }
     }
       nav {
-        background: #666;
+        background: #28292E;
         // height: 5em;
         display: flex;
         justify-content: center;
@@ -46,18 +50,22 @@
           li {
             min-height: 100%;
             margin: 1em 3em;
+            a {
+              color: white;
+            }
             a:hover {
               opacity: 0.5;
+
             }
           }
         }
       }
   }
   main {
-    background: #999;
+    background: #F7F8FD;
     display: flex;
     // flex-wrap: wrap;
-    // min-height: 24em;
+    min-height: 25em;
     .main-image-wrapper {
       display: inline-block;
       img {
@@ -81,6 +89,7 @@
         .image-wrapper {
           position: relative;
           img {
+          border: 1px solid #28292E;
           width: 11em;
           height: 8em;
           margin: 1.75em;
@@ -94,7 +103,7 @@
           height: 10em;
           // position: absolute;
           background-color: #000;
-          opacity: 0.5;
+          opacity: 0.7;
           transition-property: height, width, margin;
           transition-duration: 1s;
           margin: 1em;
@@ -118,6 +127,8 @@
     }   
   }
   footer {
+    background: #28292E;
+    color: white;
     min-height: 3em;
     display: flex;
     // justify-content: space-around;
@@ -125,7 +136,15 @@
       flex-grow: 1;
       p {
         font-size: 1em;
-        margin: .55em
+        margin: .55em;
+        color: white;
+        span {
+          color: white;
+        }
+        i {
+          font-size: 1em;
+          color: white;
+        }
       }
     }
     .social-info-wrapper {
@@ -133,7 +152,8 @@
       justify-content: flex-end;
       i {
         font-size: 2.5em;
-        margin: .5em 0 0 6em;      
+        margin: .5em 0 0 6em;
+        color: white;      
       }
       i:hover {
         opacity: .5;

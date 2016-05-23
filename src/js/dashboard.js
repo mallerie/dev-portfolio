@@ -15,7 +15,7 @@ export default class Dashboard extends Component {
         <header> {/* ----------HEADER ----------*/}
 
           <div id="header-name-wrapper">
-            <h1>Mallerie Shirley</h1>
+            <h1>MALLERIE SHIRLEY</h1>
           </div>
 
           <nav>
@@ -41,8 +41,8 @@ export default class Dashboard extends Component {
 
           <div className="contact-info-wrapper">
             <p>Contact</p>
-            <p>P - 763.226.5887</p>
-            <p>E - mallerie@gmail.com</p>
+            <p><i className="fa fa-mobile" aria-hidden="true"/><span> - 763.226.5887</span></p>
+            <p><i className="fa fa-envelope" aria-hidden="true"/><span> - mallerie@gmail.com</span></p>
           </div>
 
           <div className="social-info-wrapper">
