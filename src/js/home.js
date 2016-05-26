@@ -50,7 +50,7 @@ export default class Home extends Component {
               </div>
 
               <div className="image-wrapper">  
-                <Link to={'/resume'}>
+                <Link to={'/interests'}>
                   <img src="./images/mal-working-on-computer.jpg" alt="Mallerie working on a computer"/>
                 </Link> 
                 <p className="hover-title">About Me</p>
