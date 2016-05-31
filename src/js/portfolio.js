@@ -8,7 +8,73 @@ export default class Portfolio extends Component {
 
     return(
       <div className="portfolio">
-        <h2>Coming Soon</h2>
+
+        <div className="portfolio-item">
+          
+          <div className="portfolio-img-wrapper">
+            <img src="./images/skinny-ties.png" 
+                 alt="A recreation of the Skinny Ties 
+                      website created to pixel perfection."/>
+          </div>
+
+          <div className="portfolio-content-wrapper">
+
+            <div className="title-wrapper">
+              <h3>Skinny Ties Website</h3>
+            </div>
+
+            <div className="project-description-wrapper">
+              <div className="project-description">
+                <p className="description-paragraph">Skinny Ties website re-created to pixel perfection 
+                  using SASS and implementing new CSS features. See the 
+                  actual site <a className="here-link" href="http://www.skinnyties.com" target="_blank">here</a>.</p>
+              </div>
+
+              <div className="project-links">
+                <div className="link-wrappers"><a href="https://github.com/mallerie/skinny-ties" target="_blank">See My Code</a></div> 
+                <div className="link-wrappers"><a href="http://scarce-show.surge.sh/" target="_blank">See It Live</a></div> 
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div className="portfolio-item">
+
+          <div className="portfolio-content-wrapper">
+
+            <div className="project-description-wrapper">
+              <div className="project-description">
+                <p className="description-paragraph">
+                  An app for moms to find places where they can 
+                  comfortably breastfeed their babies in public. 
+                  Built using the React framework. Used AJAX to pull
+                  data from the database, SASS for styling and Git for 
+                  version control. 
+                </p>
+              </div>
+
+              <div className="project-links">
+                <div className="link-wrappers"><a href="https://github.com/nursing-station/milk-ninja-js" target="_blank">See The Code</a></div> 
+                <div className="link-wrappers"><a href="https://www.milkninja.com" target="_blank">MilkNinja.com</a></div> 
+              </div>
+            </div>
+
+            <div className="title-wrapper">
+              <h3>Milk Ninja</h3>
+            </div>
+
+          </div>
+
+          
+
+          <div className="portfolio-img-wrapper">
+            <img src="./images/milk-ninja.png" 
+                 alt="A recreation of the Skinny Ties 
+                      website created to pixel perfection."/>
+          </div>
+        </div>
 
         
 
