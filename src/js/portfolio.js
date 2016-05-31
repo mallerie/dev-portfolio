@@ -25,7 +25,7 @@ export default class Portfolio extends Component {
 
             <div className="project-description-wrapper">
               <div className="project-description">
-                <p className="description-paragraph">Skinny Ties website re-created to pixel perfection 
+                <p className="description-paragraph">Skinny Ties website re-created as a static page to pixel perfection 
                   using SASS and implementing new CSS features. See the 
                   actual site <a className="here-link" href="http://www.skinnyties.com" target="_blank">here</a>.</p>
               </div>

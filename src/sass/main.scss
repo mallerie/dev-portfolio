@@ -99,7 +99,7 @@ $black: #28292E;
           margin: 1.75em;
           position: relative;
           transition-property: height, width, margin;
-          transition-duration: 1s;
+          transition-duration: .5s;
 
         }
         img:hover {
@@ -109,7 +109,7 @@ $black: #28292E;
           background-color: #000;
           opacity: 0.7;
           transition-property: height, width, margin;
-          transition-duration: 1s;
+          transition-duration: .5s;
           margin: 1em;
         }
         // .hover-title:hover {
