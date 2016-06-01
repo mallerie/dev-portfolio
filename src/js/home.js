@@ -46,7 +46,7 @@ export default class Home extends Component {
                 <Link to={'/portfolio'}>
                   <img src="./images/project-preview.png" alt="Image of the skinny ties website"/>
                 </Link>  
-                <p className="hover-title">See My Projects</p>
+                <p className="hover-title">See My Work</p>
               </div>
 
               <div className="image-wrapper">  
