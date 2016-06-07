@@ -8,7 +8,7 @@ import Dashboard from './dashboard';
 import Home      from './home';
 import Resume    from './resume';
 import Portfolio from './portfolio';
-import Interests from './interests';
+import Spotlight from './Spotlight';
 
 
 
@@ -21,7 +21,7 @@ render((
         <Route path="/resume" component={Resume}/>
         <Route path="/home" component={Home}/>
         <Route path="/portfolio" component={Portfolio}/>
-        <Route path="/interests" component={Interests}/>
+        <Route path="/spotlight" component={Spotlight}/>
 
     </Route>  
   </Router>

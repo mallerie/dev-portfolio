@@ -24,7 +24,7 @@ export default class Dashboard extends Component {
               <li><Link to={'/home'}>Home</Link></li>
               <li><Link to={'/resume'}>Resume</Link></li>
               <li><Link to={'/portfolio'}>Portfolio</Link></li>
-              <li><Link to={'/interests'}>Interests</Link></li>
+              <li><Link to={'/spotlight'}>Spotlight</Link></li>
             </ul>
 
           </nav>
@@ -42,7 +42,12 @@ export default class Dashboard extends Component {
           <div className="contact-info-wrapper">
             <p>Contact</p>
             <p><i className="fa fa-mobile" aria-hidden="true"/><span> - 763.226.5887</span></p>
-            <p><i className="fa fa-envelope" aria-hidden="true"/><span> - mallerie@gmail.com</span></p>
+            <p>
+              <a href="mailto:mallerie@gmail.com?Subject=Contact%20From%20Your%20Website" target="_blank">
+                <i className="fa fa-envelope" aria-hidden="true"/>
+                  <span> - mallerie@gmail.com</span>
+              </a>
+            </p>
           </div>
 
           <div className="social-info-wrapper">

@@ -5,6 +5,7 @@
 @import 'font-awesome/scss/font-awesome';
 
 @import 'portfolio';
+@import 'spotlight';
 
 
 
@@ -138,6 +139,15 @@ $black: #28292E;
     // justify-content: space-around;
     .contact-info-wrapper {
       flex-grow: 1;
+      p:nth-child(3) {
+        i:hover {
+          opacity: 0.7;
+        }
+        span:hover {
+          opacity: 0.7;
+        }
+
+      }
       p {
         font-size: 1em;
         margin: .55em;
@@ -198,10 +208,10 @@ $black: #28292E;
       margin: 1em;
     }
     h4 {
-      text-align: left;
+      text-align: center;
     }
     p {
-      text-align: left;
+      text-align: center;
     }
   }
   .work {
@@ -211,7 +221,7 @@ $black: #28292E;
   }
 }
 
-.portfolio, .interests {
+.portfolio, .spotlight {
   min-height: 24em;
 }
 

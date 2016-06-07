@@ -19,7 +19,8 @@ export default class Home extends Component {
             <div className="about-me-wrapper">
               <p>
                 Thank you for checking out my work. 
-                As a visual person and critical thinker, 
+                As a Front-End Engineer who is a visual 
+                person and critical thinker, 
                 I find great pleasure in solving problems.
                 One of my favorite role models, Captain 
                 Jean Luc Picard said, "There is a way out 
@@ -50,7 +51,7 @@ export default class Home extends Component {
               </div>
 
               <div className="image-wrapper">  
-                <Link to={'/interests'}>
+                <Link to={'/spotlight'}>
                   <img src="./images/mal-working-on-computer.jpg" alt="Mallerie working on a computer"/>
                 </Link> 
                 <p className="hover-title">About Me</p>

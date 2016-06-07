@@ -76,6 +76,37 @@ export default class Portfolio extends Component {
           </div>
         </div>
 
+        <div className="portfolio-item">
+          
+          <div className="portfolio-img-wrapper">
+            <img src="./images/a-helping-hand.png" 
+                 alt=""/>
+          </div>
+
+          <div className="portfolio-content-wrapper">
+
+            <div className="title-wrapper">
+              <h3>A Helping Hand</h3>
+            </div>
+
+            <div className="project-description-wrapper">
+              <div className="project-description">
+                <p className="description-paragraph">Helping end child sexual exploitation one teacher at a time.
+                      allows teachers and other school staff to quickly and anonymously
+                      report that they suspect their students may be being exploited. Built
+                      using HTML, CSS, Ruby on Rails on the back-end and Javascript on the
+                      front-end.</p>
+              </div>
+
+              <div className="project-links">
+                <div className="link-wrappers"><a href="https://github.com/Teachers-Care/Teachers-Care" target="_blank">See My Code</a></div> 
+                <div className="link-wrappers"><a href="http://teachers-care.surge.sh/" target="_blank">See It Live</a></div> 
+              </div>
+            </div>
+
+          </div>
+        </div>
+
         
 
       </div>

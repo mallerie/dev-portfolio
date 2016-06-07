@@ -1,0 +1,27 @@
+
+.spotlight {
+  display: flex;
+
+}
+
+.spotlight-item {
+  margin: 3em;
+
+  h4 {
+    text-align: center;
+    margin: 1em;
+  }
+
+  img {
+    width: 20em;
+  }
+
+  a:hover {
+    opacity: .7;
+  }
+
+  .linkable:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+
+  }
+}
