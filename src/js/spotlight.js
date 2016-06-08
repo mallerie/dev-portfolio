@@ -11,7 +11,7 @@ export default class Spotlight extends Component {
         
         <div className="spotlight-item">
           <h4>Winner - Atlanta's First All-Women Hackathon</h4>
-          <img src="./images/women-hackathon-presenting.jpg" alt="Team of four women presenting their app."/>
+          <img src="./images/women-hackathon.jpg" alt="Team of four women presenting their app."/>
         </div>
 
         <div className="spotlight-item">
